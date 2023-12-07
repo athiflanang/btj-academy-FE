@@ -1,57 +1,23 @@
-﻿# Tugas HTML 1(5 Dec 2023)
+﻿# Tugas HTML 2(7 Dec 2023)
 
 # Login
-- Pada example login ini, telah dibuat sebuah HTML page yang dapat digunakan untuk login kedalam sebuah page, namun untuk sekarang fitur tersebut belum di implementasikan.
-- Pada page login ada hyperlink yang menuju kepada page HTML Home dan page HTML About Us, untuk sekarang hanya page About Us yang telah dikembangkan, penjelasan lebih detailnya dapat dibaca setelah Bab Login
+- Page login telah diubah menyesuaikan dengan spesifikasi style yang di inginkan oleh pengajar, warna yang digunakan dipilih sesuai dengan keinginan peserta
+- Posisi text yang ada pada page login mayoritas telah diletakan di posisi tengah (center) page
+- Telah ditambahkan sebuah border pada bagian "Username" dan "Password" untuk membuat lebih menonjol pada desain page login
+- Font yang digunakan dalam page ini adalah "Montserrat" dengan "sans-serif" sebagai font pengganti jika font Montserrat tidak ditemukan di sistem
 
-## Tag yang dipakai
+## Before - Login
 
-### Main
-- Head
-- Body
-
-### Tag HTML
-- title
-- h1 h2
-- table, tr, td
-- a 
-- p
-- label
-- input
-- br
-- button
-- img
-- footer
-- &copy
-### Tag Attribute
-- href
-- for
-- type, id, name, placeholder, required
-- src, alt, style 
-
+## After - Login
 
 # About
-- Pada page about ini, dibuat sebuah tampilan webpage HTML yang berisi tentang informasi mengenai informasi pembuat page About, seperti nama, latar belakang, pendidikan, pengalaman pekerjaan, hobi, motto hidup, sosial media yang digunakan, dan juga foto pembuat
-- Page ini juga memiliki tombol yang dapat digunakan untuk kembali ke page Login jika di inginkan
+- Page About telah di update dengan style baru dengan catatan bahwa layout header, navigation, dan footer sesuai dengan layout pada page Login
+- Posisi text ditaruh di bagian tengah (center) untuk memudahkan pembaca
+- Ditambahkan juga sebuah border box pada masing masing poin yang ingin ditampilkan pada page About
+- Font yang digunakan dalam page ini adalah "Montserrat" dengan "sans-serif" sebagai font pengganti jika font Montserrat tidak ditemukan di sistem
 
-## Tag yang dipakai
+## Before - About
 
-### Main
-- Head
-- Body
-### Tag HTML
-- title
-- h1 h2
-- table, tr, td 
-- span
-- img
-- p
-- a
-- ul, li
-- strong
-### Tag Attribute
-- src, alt, style
-- href
-- border
+## After - About
 
 
