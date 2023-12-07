@@ -7,9 +7,9 @@
 - Font yang digunakan dalam page ini adalah "Montserrat" dengan "sans-serif" sebagai font pengganti jika font Montserrat tidak ditemukan di sistem
 
 ## Before - Login
-![before](src/before-about.png)
+![before login](src/before-login.png)
 ## After - Login
-
+![after login](src/after-login.png)
 # About
 - Page About telah di update dengan style baru dengan catatan bahwa layout header, navigation, dan footer sesuai dengan layout pada page Login
 - Posisi text ditaruh di bagian tengah (center) untuk memudahkan pembaca
@@ -17,7 +17,7 @@
 - Font yang digunakan dalam page ini adalah "Montserrat" dengan "sans-serif" sebagai font pengganti jika font Montserrat tidak ditemukan di sistem
 
 ## Before - About
-
+![before About](src/before-about.png)
 ## After - About
-
+![after About](src/after-about.png)
 
