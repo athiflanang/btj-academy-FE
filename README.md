@@ -7,7 +7,7 @@
 - Font yang digunakan dalam page ini adalah "Montserrat" dengan "sans-serif" sebagai font pengganti jika font Montserrat tidak ditemukan di sistem
 
 ## Before - Login
-![before](src/before-about)
+![before](src/before-about.png)
 ## After - Login
 
 # About
