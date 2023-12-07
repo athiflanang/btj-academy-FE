@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+    background-color: #F739C0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar{
+    text-align: center;
+    position: relative;
+    background-color: #FC69F9;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    z-index: 2;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+
+.content-hobbies{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-image-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-image-text img{
+    margin-right: 20px;
+}
+
+.content-education{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-work{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.content-motto{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-socials{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #0BBFFC;
+    padding: 20px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

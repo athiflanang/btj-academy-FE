@@ -2,28 +2,48 @@
 <html lang ="en">
     <head>
         <title>BTJ Academy</title>
+        <link rel="stylesheet" type="text/css" href="test.css">
     </head>
     <body>
-        <h1>Welcome</h1>
-        <table>
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="about-athif.html">About Us</a></td>
-            </tr>
-        </table>
-        <h2>Welcome to Out Landing Page</h2>
-        <p>please login to access other features</p>
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required>
-        <br>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        <br>
-        <button type="submit">Login</button>
-        <img src="https://img.freepik.com/free-vector/video-blogger-computer-screen-advertising-new-phone-man-posting-vlog-smartphone-review-channel-flat-vector-illustration-technology-marketing-concept-banner-landing-web-page_74855-21080.jpg?w=1480&t=st=1700274281~exp=1700274881~hmac=7a3f1665e45429eccdcb8dd30c6d2f723c31a77e18365052e97041bb968226a2" alt="image" style="width: 300px; height: auto;">
-        <p>One step for man, One giant leap for mankid - Neil Armstrong </p>
+        <div class="welcome-section">
+            <h1 class="welcome">Welcome</h1>
+        </div>
+        <div class="nav-section">
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="about-athif.html">About</a></td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="main-content">
+
+            <div class="content-header">
+                <h2>Welcome to Our Landing Page</h2>
+                <p>please login to access other features</p>
+            </div>
+
+            <div class="content-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br>
+    
+                <button type="submit">Login</button>
+            </div>
+
+            <div class="content-image">
+                <img src="https://img.freepik.com/free-vector/video-blogger-computer-screen-advertising-new-phone-man-posting-vlog-smartphone-review-channel-flat-vector-illustration-technology-marketing-concept-banner-landing-web-page_74855-21080.jpg?w=1480&t=st=1700274281~exp=1700274881~hmac=7a3f1665e45429eccdcb8dd30c6d2f723c31a77e18365052e97041bb968226a2"
+                    alt="image" style="width: 300px; height: auto;">
+                <p>One step for man, One giant leap for mankind - Neil Armstrong </p>
+            </div>
+        </div>
         <footer>
-            &copy; 2023 BTJ Academy
+            <p>&copy; 2023 BTJ Academy</p>
         </footer>
     </body>
 </html>
