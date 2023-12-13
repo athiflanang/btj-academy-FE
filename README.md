@@ -18,9 +18,9 @@
 ![showpassword](src/after-login-showpassword.png)
 ## After - Login - form validation
 ![formvalidation](src/after-login-formvalidwrong.png)
-## After - Login - form validation
+
 ![formvalidation2](src/after-login-formvalidwrong2.png)
-## After - Login - form validation
+
 ![formvalidation3](src/after-login-formvalidwrong3.png)
 ## After - Login - Caps Lock
 ![Caps Lock](src/after-login-capslock.png)
