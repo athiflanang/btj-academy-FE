@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/*warna background*/
+body{
+    background-color: #2C3333;
+}
+
+/*header navbar*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+/* img header */
+.img-header{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-right: 1000px;
+    transition: all 2s ease-in-out;
+}
+
+.img-header img{
+    transition: transform 0.5s ease-in-out;
+}
+
+/*welcome text*/
+.logo{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/*navbar hyperlink*/
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/*hover navbar before*/
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .3s;
+}
+
+/*hover navbar after*/
+.navbar a:hover::before{
+    width: 100%;
+}
+
+/*box sign in*/
+.sign-in{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 110px;
+    box-shadow: 15px 15px black;
+}
+
+/*box bagian kiri*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: #CBE4DE;
+    padding: 20px;
+}
+
+/*header welcome*/
+.form h2{
+    font-size: 18px;
+    margin: 40px;
+    color: #2C3333;
+    font-family: 'poppins', sans-serif;
+}
+
+/*text welcome*/
+.form p{
+    font-size: 16px;
+    margin: 20px;
+    font-family: 'poppins', sans-serif;
+}
+
+/*textbox username password*/
+.box{
+    padding: 12px;
+    width: 65%;
+    border: 1px solid black;
+    outline: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+/*box bagian kanan*/
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+}
+
+.side p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/*side image*/
+.side img{
+    width: 350px;
+    height: 300px;
+}
+
+/*sign in button*/
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+/*hover sign in button*/
+#submit:hover {
+    cursor: pointer;
+    background-color: #4432d0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
